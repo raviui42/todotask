@@ -1,0 +1,33 @@
+.tasksContainer {
+  width: 25%;
+  margin: 1em;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  justify-content: space-between;
+  box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.11);
+  .tasks {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 70px);
+    h3 {
+      text-align: center;
+    }
+    .tasksDiv {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      border-bottom: 1px solid #000;
+      border-top: 1px solid #000;
+      overflow: auto;
+    }
+  }
+  .inputWrapper {
+    display: flex;
+    height: 70px;
+    .text {
+      width: 100%;
+    }
+  }
+}
